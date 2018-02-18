@@ -7,13 +7,11 @@ function playSound(e){
     var audio = document.querySelector('#dog');
     audio.currentTime = 0;
     audio.play();
-
   } else if(e.target.classList.contains('cat')){
     var audio = document.querySelector('#cat');
     audio.currentTime = 0;
     audio.play();
-  } 
-  else if(e.target.classList.contains('chicken')){
+  } else if(e.target.classList.contains('chicken')){
     var audio = document.querySelector('#chicken');
     audio.currentTime = 0;
     audio.play();
